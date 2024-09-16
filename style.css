@@ -1,0 +1,256 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0FFF0; /* Honeydew - Light green background */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border-top: 10px solid #6f42c1; /* Accent color border */
+}
+
+/* Title Styling */
+.title {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 2.8rem;
+    color: #6f42c1; /* Rich purple color for the title */
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+}
+
+/* Heading Styling */
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #6f42c1; /* Purple background for headings */
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+/* Input Group Styling */
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f4f7fc; /* Light grey-blue background for inputs */
+    transition: border 0.3s;
+}
+input:file{
+    height: 150;
+    width: 150;
+}
+
+input:focus {
+    border-color: #6f42c1; /* Focus state with purple color */
+    outline: none;
+    height: 150;
+    width: 150;
+    
+}img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 150;
+    width: 150;
+}
+textarea:focus {
+    border-color: #6f42c1; /* Focus state with purple color */
+    outline: none;
+}
+textarea {
+    resize: none;
+}
+
+button.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffcc00; /* Bright yellow button */
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button.submit-btn:hover {
+    background-color: #b3b1ab; /* Slightly lighter yellow on hover */
+    transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+/* Resume Output Section */
+.resume {
+    margin-top: 40px;
+   
+    background-color:rgb(243, 237, 243);
+}
+
+
+
+.edit-btn {
+    width: 100%;
+    padding: 2px;
+    background-color:  #ffd633;; /* Bright yellow button */
+    color: #333;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.edit-btn:hover {
+    background-color:  #b3b1ab; ;
+}
+
+
+.resume-output h2  {
+    color: #f3e9e9;
+    margin-bottom: 10px;
+    border-color: #6f42c1; /* Focus state with purple color */
+    
+}#resume-output p {
+    
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f4f7fc; /* Light grey-blue background for inputs */
+    transition: border 0.3s;
+}
+#resume-output h3{
+    background-color: #6f42c1;
+    border-radius: 8px;
+    border: 2px solid #6f42c1;
+    transition: border 0.3s;
+    font-size: 1rem;
+    width: 100%;
+    padding: 15px;
+    -webkit-text-fill-color: #f4f7fc;
+}
+
+#resume-output profile-pic-output {
+    width: 150;
+    height: 150;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    border: 5px solid #6f42c1; /* Adds a border around the image */
+
+    #profile-pic-output {
+        display: block; /* Ensures it's a block-level element */
+        margin-top: 20px;
+        border-radius: 50%; /* Make it circular */
+        object-fit: cover; /* Ensures the image covers the area */
+        width: 150px; /* Fixed width */
+        height: 150px; /* Fixed height */
+    }
+    
+}
+
+.resume section {
+    margin-bottom: 30px;
+}
+
+.resume p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.resume ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0; /* Remove default margin */
+}
+
+.resume ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.resume {
+    margin-top: 40px;
+    display: none; /* Initially hidden */
+}
+#copy-link-btn {
+    width: 50%;
+    padding: 10px 20px;
+    background-color:  #ffd633;; /* Bright yellow button */
+    color: #333;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 30% ;}
+
+#download-pdf-btn {
+    width: 50% ;
+    padding: 10px 20px;
+    background-color:  #ffd633;; /* Bright yellow button */
+    color: #333;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 10px;
+    margin-left: 30% ;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+/* Add hover effect */
+#copy-link-btn:hover, #download-pdf-btn:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+    background-color: #ddd;
+    text-align: center;
+}
